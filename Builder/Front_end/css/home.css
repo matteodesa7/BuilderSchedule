@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(rgba(176, 178, 255, 0.4), rgba(191, 211, 255, 0.4)), url(../../src/back.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.dancing-script-h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Oswald-but {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Oswald-reg {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.Oswald-rec {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: transform 0.2s;
+}
+.form-group button:hover {
+    /*background: linear-gradient(to right, #2cabff, #2148f3); /* Colore finale con gradiente */ 
+    transform: translateY(3px);
+    transition-duration: 0.4s;
+    
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container label {
+    display: block; /* Mostra l'etichetta come blocco per posizionarla sopra l'input */
+    margin-bottom: 5px; /* Spazio tra l'etichetta e l'input */
+}
+
+.password-container input[type="password"] {
+    padding-right: 30px; /* Spazio per l'icona dell'occhio alla destra dell'input */
+}
+
+#togglePassword {
+    position: absolute;
+    top: 70%;
+    right: 5%; /* Posizionamento dell'icona rispetto al bordo destro dell'input */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#togglePassword- {
+    position: absolute;
+    top: 50%;
+    right: 5%; /* Posizionamento dell'icona rispetto al bordo destro dell'input */
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 10px;
+}
+.switch a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+
+/* Media query per dispositivi di larghezza massima 600px */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
+
