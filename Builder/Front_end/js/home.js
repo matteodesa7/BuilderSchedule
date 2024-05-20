@@ -11,7 +11,7 @@ const togglePassword = document.getElementById('togglePassword');
 
 const recoverLink = document.getElementById('recover-link');
 const recoverForm = document.getElementById('recover-form');
-const cfRecover = document.getElementById('cf-recover');
+
 
 registerLink.addEventListener('click', function(e) {
     e.preventDefault();
